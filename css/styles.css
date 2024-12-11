@@ -9,9 +9,12 @@
 #map {
   width: 100vw;
   height: 100vh;
-  cursor: default;
+  cursor: grab;
 }
 
 .leaflet-interactive {
-  cursor: default;
+  cursor: grab;
+}
+.leaflet-marker-icon {
+  cursor: pointer;
 }
