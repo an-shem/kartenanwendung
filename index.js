@@ -49,8 +49,8 @@ var GeoportailFrance_orthos = L.tileLayer(
 //create custom icon -(создание пользовательского маркера для карты)
 var gritIcon = L.icon({
   iconUrl: './images/grit.svg',
-  iconSize: [40, 60],
-  iconAnchor: [15, 45],
+  iconSize: [35, 55],
+  iconAnchor: [20, 45],
   popupAnchor: [0, -45],
 });
 
